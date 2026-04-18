@@ -37,8 +37,11 @@ export function Navbar() {
       </div>
 
       <div className="hidden md:flex gap-4 items-center">
-        <a href="https://github.com/royrk3369" target="_blank" rel="noreferrer" className="p-2 glass rounded-full hover:bg-white/10 transition-all">
+        <a href="https://github.com/rickhub0/" target="_blank" rel="noreferrer" className="p-2 glass rounded-full hover:bg-white/10 transition-all">
           <Github size={20} />
+        </a>
+        <a href="https://www.instagram.com/clickors/" target="_blank" rel="noreferrer" className="p-2 glass rounded-full hover:bg-white/10 transition-all">
+          <Instagram size={20} />
         </a>
       </div>
 
@@ -65,8 +68,11 @@ export function Navbar() {
             </a>
           ))}
           <div className="flex gap-4 pt-4">
-            <a href="https://github.com/royrk3369" target="_blank" rel="noreferrer" className="text-gray-300">
+            <a href="https://github.com/rickhub0/" target="_blank" rel="noreferrer" className="text-gray-300">
               <Github />
+            </a>
+            <a href="https://www.instagram.com/clickors/" target="_blank" rel="noreferrer" className="text-gray-300">
+              <Instagram />
             </a>
           </div>
         </motion.div>

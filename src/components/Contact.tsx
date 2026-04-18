@@ -22,20 +22,29 @@ export function Contact() {
 
         <div className="flex flex-wrap justify-center gap-6">
           <a
-            href="mailto:suosoumyajit@gmail.com"
+            href="mailto:ask@heysurajit.me"
             className="flex items-center gap-2 px-8 py-3 bg-white text-black rounded-full font-bold hover:bg-gray-200 transition-all hover:scale-105"
           >
             <Mail size={18} />
             Email Me
           </a>
           <a
-            href="https://github.com/royrk3369"
+            href="https://github.com/rickhub0/"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2 px-8 py-3 glass rounded-full font-bold text-white hover:bg-white/10 transition-all hover:scale-105"
           >
             <Github size={18} />
             GitHub
+          </a>
+          <a
+            href="https://www.instagram.com/clickors/"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2 px-8 py-3 glass rounded-full font-bold text-white hover:bg-white/10 transition-all hover:scale-105"
+          >
+            <Instagram size={18} />
+            Instagram
           </a>
         </div>
 
@@ -44,8 +53,11 @@ export function Contact() {
             © 2026 SURAJIT DAS • ALL RIGHTS RESERVED
           </div>
           <div className="flex gap-6">
-            <a href="https://github.com/royrk3369" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-white transition-colors">
+            <a href="https://github.com/rickhub0/" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-white transition-colors">
               <Github size={18} />
+            </a>
+            <a href="https://www.instagram.com/clickors/" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-white transition-colors">
+              <Instagram size={18} />
             </a>
           </div>
         </div>

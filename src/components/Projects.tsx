@@ -6,7 +6,7 @@ const projects = [
     title: 'Benglishify',
     description: 'An advanced AI-powered translator specifically designed for Bengali-English transliteration and contextual translation.',
     tags: ['AI', 'React', 'NLP'],
-    github: 'https://github.com/royrk3369',
+    github: 'https://github.com/rickhub0/',
   },
   {
     title: 'ReelsSaver Pro',
